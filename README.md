@@ -41,7 +41,6 @@ Adventure Time - Space Survivor là một trò chơi nơi kỹ năng sinh tồn 
 - Các kỹ thuật, syntax của SDL.
 - Kỹ thuật giải phóng bộ nhớ động. <br />
 
-
 ### Ứng dụng
 - Thuật toán sinh đối tượng Threats theo thời gian và AI mode di chuyển tự động về phía người chơi <br />
 - <a name="future"/>
@@ -51,7 +50,6 @@ Adventure Time - Space Survivor là một trò chơi nơi kỹ năng sinh tồn 
 - Sẽ thiết lập một trường cơ sở dữ liệu (database) lưu trữ trên máy chủ (server) lưu trữ thông tin người chơi. <br />
 - Một Đấu Trường bao gồm khoảng 10-50-100 người chơi. <br />
 - Người chơi cuối cùng còn sinh tồn là người chiến thắng. <br />
-
 
 * <a name="summary"/>
 ## 6. Kết luận
