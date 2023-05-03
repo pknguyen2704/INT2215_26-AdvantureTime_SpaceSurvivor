@@ -8,18 +8,18 @@
 * [Kết luận](#summary)
 
 
-<a name="setup"/>
+* <a name="setup"/>
 ## 1. Hướng dẫn cài đặt
 - Để khởi động trò chơi, click AdventureTime_SpaceSurvivor.exe. <br />
 
 
-<a name="info"/>
+* <a name="info"/>
 ## 2. Mô tả chung <br />
 
 ### Giới thiệu
 Adventure Time - Space Survivor là một trò chơi nơi kỹ năng sinh tồn của bạn sẽ được thử thách bằng cách phải vượt qua những nguy hiểm trong vũ trụ, chống lại những con quái vật đáng sợ và cố gắng sống sót đến khi hết thời gian. <br />
 
-<a name="tech"/>
+* <a name="tech"/>
 ## 3. Kỹ thuật lập trình <br />
 ### Xây dựng trên nền tảng C++ và SDL2 bao gồm:<br />
 - SDL_Image: Hỗ trợ xử lý hình ảnh.
@@ -44,7 +44,7 @@ Adventure Time - Space Survivor là một trò chơi nơi kỹ năng sinh tồn 
 ### Ứng dụng <br />
 - Thuật toán sinh đối tượng Threats theo thời gian và AI mode di chuyển tự động về phía người chơi <br />
 
-<a name="future"/>
+* <a name="future"/>
 ## 4. Các hướng đi trong tương lai <br />
 ### Kết nối hóa trò chơi: Nâng cấp trò chơi thành Multiple Online Play <br />
 - Sử dụng kết nối mạng máy tính (LAN, Router,... ) kết nối người chơi với nhau. <br />
@@ -52,7 +52,7 @@ Adventure Time - Space Survivor là một trò chơi nơi kỹ năng sinh tồn 
 - Một Đấu Trường bao gồm khoảng 10-50-100 người chơi. <br />
 - Người chơi cuối cùng còn sinh tồn là người chiến thắng. <br />
 
-<a name="summary"/>
+* <a name="summary"/>
 ## 5. Kết luận
 Game được hoàn thiện trong thời gian một tháng. <br />
 Tham khảo các nguồn tài liệu: LazyFoo, Phattrienphanmem123az,.... <br />
