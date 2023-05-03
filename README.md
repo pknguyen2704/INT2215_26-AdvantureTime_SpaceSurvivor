@@ -34,7 +34,6 @@ Adventure Time - Space Survivor là một trò chơi nơi kỹ năng sinh tồn 
 - Con trỏ, set, map, vector <br />
 - Class: Tạo, hủy, member function. <br />
 - Đọc viết file binary. <br />
-- Multithreading: Xử lý chức năng Battle.<br />
 - Tách file giấu code.<br />
 - Kỹ thuật duyệt mảng, sinh số ngẫu nhiên.<br />
 - Kỹ năng refac code.
