@@ -56,7 +56,13 @@ void MainObject::SetBulletList(std::vector<BulletObject*> p_bulletList)
 {
 	p_bulletList_ = p_bulletList;
 }
-
+void MainObject::Reset()
+{
+	inputType_.left_ = 0;
+	inputType_.right_ = 0;
+	inputType_.up_ = 0;
+	inputType_.down_ = 0;
+}
 std::vector<BulletObject*> MainObject::GetBulletList() const
 {
 	return p_bulletList_;

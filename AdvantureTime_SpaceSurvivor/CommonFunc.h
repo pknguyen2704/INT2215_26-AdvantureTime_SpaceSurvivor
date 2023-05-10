@@ -67,6 +67,7 @@ static SDL_Window* gWindow = NULL;
 static SDL_Renderer* gScreen = NULL;
 static SDL_Event gEvent;
 static SDL_Surface* iconSurface = NULL;
+
 #define EASY 0
 #define MEDIUM 1
 #define HARD 2

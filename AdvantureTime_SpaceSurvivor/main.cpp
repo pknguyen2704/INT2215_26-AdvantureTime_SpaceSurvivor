@@ -56,7 +56,6 @@ int main(int argc, char* argv[])
 again_label:
 	status = 2;
 
-
 	maxExpPerLevel = 20;
 
 	lossHP = 0;
@@ -71,10 +70,10 @@ again_label:
 	bool quit = false;
 
 	// Show game menu
-	//Mix_FreeMusic(sMenuMusic);
+	// Mix_FreeMusic(sMenuMusic);
 	bool intogame = false;
 	bool musicIsPlayed = false;
-
+	
 	fontIngame = TTF_OpenFont("asset/font/dlxfont.ttf", 12);
 	fontMenu = TTF_OpenFont("asset/font/UTM Neutra.ttf", 40);
 	fontSetting = TTF_OpenFont("asset/font/UTMThanchientranh.ttf", 30);
@@ -173,6 +172,7 @@ again_label:
 	{
 		maxTime = 600;
 	}
+	p_player.Reset();
 	BaseObject moneyDisplay;
 	moneyDisplay.LoadImg("asset/img/100.png", gScreen);
 	// Load Map 
@@ -183,10 +183,10 @@ again_label:
 	// Loa Player
 	p_player.LoadImg(gMainObject, gScreen, mainObject);
 	p_player.SetClips();
-
 	// Create Threats
 	std::vector <ThreatObject*> threatList = MakeThreatList();
 	std::vector <SupportItem*> manaList = MakeManaList();
+
 	// Animation after threat dead
 	ExplosionObject exp_threat;
 	bool tRet = exp_threat.LoadImg("asset/img/exp3.png", gScreen);
@@ -385,9 +385,11 @@ again_label:
 			lossEnergy = 0;
 		if (lossEnergy >= maxEnergy)
 			lossEnergy = maxEnergy;
+
 		MainObjectInfo::ShowHPWithMain(gScreen, p_player.GetRectFrame(), maxHP / 10, lossHP / 10);
 		MainObjectInfo::ShowEnergyInGameStat(gScreen, 645, 920, maxEnergy, 12, lossEnergy);
 		MainObjectInfo::ShowHPInGameStat(gScreen, 645, 935, maxHP / 4, 12, lossHP / 4);
+
 		// if Hp = 0;
 		if (lossHP >= maxHP)
 		{

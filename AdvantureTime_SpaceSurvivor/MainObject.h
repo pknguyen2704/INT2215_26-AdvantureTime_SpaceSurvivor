@@ -33,13 +33,13 @@ public:
 	void Show(SDL_Renderer* des, const int& mainObject);
 	void HandleInputAction(SDL_Event events, SDL_Renderer* screen, int& playerGun,Mix_Chunk* gunSound[1], Mix_Chunk* emptyGun);
 	void SetMapXY(const int& mapX, const int& mapY);
-
+	void Reset();
 	void DoPlayer(Map& gMap);
 	void UpdateImagePlayer(SDL_Renderer* des, const int& mainObject);
 
 	void CenterEntityOnMap(Map& gMap);
 	void CheckToMap(Map& gMap);
-
+	
 	void SetBulletList(std::vector<BulletObject*> p_bulletList);
 	vector<BulletObject*> GetBulletList() const;
 
