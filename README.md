@@ -53,7 +53,7 @@ Adventure Time - Space Survivor là một trò chơi nơi kỹ năng sinh tồn 
 
 * <a name="summary"/>
 ## 5. Kết luận
-Game được hoàn thiện trong thời gian một tháng. <br />
+Game được hoàn thiện trong thời gian 2 tuần. <br />
 Tham khảo các nguồn tài liệu: LazyFoo, Phattrienphanmem123az,.... <br />
 
 ### Việc hoàn thiện 1 dự án lập trình như thế này giúp em mở mang kiến thức rất nhiều.<br />
